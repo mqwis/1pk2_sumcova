@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         Random rand = new Random();
-        int[] array = new int[10]; 
+        int[] array = new int[10]; //массив на 10 чисел
 
         for (int i = 0; i < array.Length; i++)
         {
