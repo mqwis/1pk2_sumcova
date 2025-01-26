@@ -9,7 +9,7 @@ class Program
 
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = rand.Next(-10, 11);
+            array[i] = rand.Next(-10, 11); //цикл
         }
         
         Console.WriteLine("Исходный массив:");
