@@ -5,19 +5,19 @@ class Program
     static void Main()
     {
         Random rand = new Random();
-        int[] days = new int[30];
-        int max = -1;
+        int[] days = new int[30]; // вводим массив
+        int max = -1; 
         int maxDay = 0;
         string dry = "";
         int d1 = 0, d2 = 0, d3 = 0;
 
         for (int i = 0; i < 30; i++)
         {
-            days[i] = rand.Next(0, 301);
+            days[i] = rand.Next(0, 301); // цикл
             
             if(i < 10)
             {
-                d1 = d1 + days[i];
+                d1 = d1 + days[i]; // цикл
             }
             else if(i < 20)
             {
@@ -39,7 +39,7 @@ class Program
                 dry += (i + 1) + " ";
             }
         }
-
+        // вводим подписи в консоль
         Console.WriteLine("Общее количество осадков за:");
         Console.WriteLine($"1 декаду: {d1}");
         Console.WriteLine($"2 декаду: {d2}");
