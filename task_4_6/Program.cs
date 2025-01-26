@@ -58,7 +58,7 @@ namespace task_4_6
                 Console.Write(numbers[i] + " ");
             }
             Console.WriteLine();
-            Console.WriteLine("Наибольшее по модулю число: " + max);
+            Console.WriteLine("Наибольшее число по модулю : " + max);
         }
     }
 }
