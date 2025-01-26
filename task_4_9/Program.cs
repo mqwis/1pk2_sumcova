@@ -5,7 +5,9 @@ class Program
     static void Main()
     {
         Random rnd = new Random();
-        int[] numbers = new int[10];
+        int[] numbers = new int[10]; // массив на 10 чисел
+
+        // вводим текст в консоль
 
         for (int i = 0; i < numbers.Length; i++)
         {
