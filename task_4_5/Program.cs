@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        
         Random rand = new Random();
         int[] days = new int[30];
         int max = -1;
