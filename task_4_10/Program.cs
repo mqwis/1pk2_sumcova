@@ -2,8 +2,42 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Random rand = new Random();
+        int[] array = new int[10]; 
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = rand.Next(-10, 11);
+        }
+        
+        Console.WriteLine("Исходный массив:");
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
+        Console.WriteLine();
+
+        for (int i = 0; i < array.Length / 4; i++)
+        {
+            int temp = array[i];
+            array[i] = array[array.Length / 2 - 1 - i];
+            array[array.Length / 2 - 1 - i] = temp;
+        }
+
+        for (int i = array.Length / 2; i < array.Length / 2 + array.Length / 4; i++)
+        {
+            int temp = array[i];
+            array[i] = array[array.Length - 1 - (i - array.Length / 2)];
+            array[array.Length - 1 - (i - array.Length / 2)] = temp;
+        }
+
+        Console.WriteLine("Результат:");
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
+        Console.WriteLine();
     }
 }

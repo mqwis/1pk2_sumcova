@@ -2,8 +2,35 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Random rnd = new Random();
+        int[] numbers = new int[10];
+
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] = rnd.Next(0, 21);
+        }
+        
+        Console.Write("Уникальные элементы в массиве: ");
+
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            bool isUnique = true;
+
+            for (int j = 0; j < numbers.Length; j++)
+            {
+                if (i != j && numbers[i] == numbers[j])
+                {
+                    isUnique = false;
+                    break;
+                }
+            }
+
+            if (isUnique)
+            {
+                Console.Write(numbers[i] + " ");
+            }
+        }
     }
 }
