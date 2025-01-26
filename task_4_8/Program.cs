@@ -5,8 +5,10 @@ class Program
     static void Main()
     {
         Random rand = new Random();
-        int[] numbers = new int[50];
+        int[] numbers = new int[50]; // массив на 50 чисел
         int pairCount = 0;
+
+        // вводим циклы
 
         for (int i = 0; i < numbers.Length; i++)
         {
@@ -23,6 +25,8 @@ class Program
                 }
             }
         }
+
+        // вводим текст в консоль
 
         Console.WriteLine("Массив:");
         for (int i = 0; i < numbers.Length; i++)

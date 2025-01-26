@@ -1,0 +1,15 @@
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\bin\Debug\net8.0\task_4_7.exe
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\bin\Debug\net8.0\task_4_7.deps.json
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\bin\Debug\net8.0\task_4_7.runtimeconfig.json
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\bin\Debug\net8.0\task_4_7.dll
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\bin\Debug\net8.0\task_4_7.pdb
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.AssemblyInfoInputs.cache
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.AssemblyInfo.cs
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.csproj.CoreCompileInputs.cache
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.sourcelink.json
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.dll
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\refint\task_4_7.dll
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.pdb
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\task_4_7.genruntimeconfig.cache
+C:\Users\mqwis\Source\Repos\1pk2_sumcova\task_4_7\obj\Debug\net8.0\ref\task_4_7.dll
