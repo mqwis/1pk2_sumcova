@@ -5,11 +5,15 @@ class Program
     static void Main()
     {
         Random rand = new Random();
-        int[] heights = new int[30];
+        int[] heights = new int[30]; // массив
+
+        // вводим переменные 
         int boysCount = 0; 
         int girlsCount = 0;
         int boysSum = 0;
         int girlsSum = 0;
+
+        //вводим циклы
 
         for (int i = 0; i < heights.Length; i++)
         {
@@ -32,6 +36,8 @@ class Program
 
         double boysAverage = boysCount > 0 ? (double)boysSum / boysCount : 0;
         double girlsAverage = girlsCount > 0 ? (double)girlsSum / girlsCount : 0;
+
+        // вводим текст в консоль
 
         Console.WriteLine("Количество мальчиков: " + boysCount);
         Console.WriteLine("Количество девочек: " + girlsCount);
