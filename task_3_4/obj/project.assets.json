@@ -8,31 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mqwis\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\zatway\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mqwis\\Source\\Repos\\1pk2_sumcova\\task_3_4\\task_3_4.csproj",
+      "projectUniqueName": "C:\\Users\\zatway\\RiderProjects\\1pk2_sumcova\\task_3_4\\task_3_4.csproj",
       "projectName": "task_3_4",
-      "projectPath": "C:\\Users\\mqwis\\Source\\Repos\\1pk2_sumcova\\task_3_4\\task_3_4.csproj",
-      "packagesPath": "C:\\Users\\mqwis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mqwis\\Source\\Repos\\1pk2_sumcova\\task_3_4\\obj\\",
+      "projectPath": "C:\\Users\\zatway\\RiderProjects\\1pk2_sumcova\\task_3_4\\task_3_4.csproj",
+      "packagesPath": "C:\\Users\\zatway\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zatway\\RiderProjects\\1pk2_sumcova\\task_3_4\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\mqwis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\zatway\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://intranet.kd.local:8040/repository/kd/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,8 +45,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -72,8 +66,15 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1302",
+      "level": "Error",
+      "message": "You are running the 'restore' operation with an 'HTTP' source: http://intranet.kd.local:8040/repository/kd/. NuGet requires HTTPS sources. To use an HTTP source, you must explicitly set 'allowInsecureConnections' to true in your NuGet.Config file. Refer to https://aka.ms/nuget-https-everywhere for more information."
+    }
+  ]
 }
