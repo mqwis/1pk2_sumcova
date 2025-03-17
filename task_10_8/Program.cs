@@ -2,9 +2,26 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            int[] array = { 1, 2, 3, 4, 5 };
+            int target = 3;
+
+            int index = FindIndex(array, target);
+
+            Console.WriteLine("Индекс элемента: " + index);
+        }
+
+        public static int FindIndex(int[] array, int target)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == target)
+                {
+                    return i;
+                }
+            }
+            return -1; // Если элемент не найден
         }
     }
 }
