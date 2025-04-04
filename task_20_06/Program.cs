@@ -76,11 +76,11 @@ while (true)
         }
     }
 }
-         static void DisplayColor(TrafficLightColor color)
-         {
-             Console.Clear(); // Очищаем консоль для наглядности
-             Console.WriteLine($"Текущий цвет: {color}");
-             if (color == TrafficLightColor.Red) Console.WriteLine("Стоп!");
-             else if (color == TrafficLightColor.Yellow) Console.WriteLine("Внимание!");
-             else if (color == TrafficLightColor.Green) Console.WriteLine("Можно ехать!");
-         }
+static void DisplayColor(TrafficLightColor color)
+{
+    Console.Clear(); // Очищаем консоль для наглядности
+    Console.WriteLine($"Текущий цвет: {color}");
+    if (color == TrafficLightColor.Red) Console.WriteLine("Стоп!");
+    else if (color == TrafficLightColor.Yellow) Console.WriteLine("Внимание!");
+    else if (color == TrafficLightColor.Green) Console.WriteLine("Можно ехать!");
+}
