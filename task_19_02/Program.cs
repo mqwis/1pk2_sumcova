@@ -19,3 +19,4 @@ foreach (string sentence in sentences)
     {
         Console.WriteLine(trimmedSentence);
     }
+}

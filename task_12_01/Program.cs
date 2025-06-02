@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using task_12_01;
+
+internal class Program
 {
     static void Main(string[] args)
     {

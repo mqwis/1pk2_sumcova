@@ -4,7 +4,7 @@ using task_20_04;
 VehicleTracker tracker = new VehicleTracker();
 
 // Добавляем несколько транспортных средств
-tracker.AddVehicle(VehicleType.Car1);
+tracker.AddVehicle(VehicleType.Car);
 tracker.AddVehicle(VehicleType.Truck);
 tracker.AddVehicle(VehicleType.Car);
 tracker.AddVehicle(VehicleType.Bike);
